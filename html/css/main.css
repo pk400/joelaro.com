@@ -1,0 +1,11 @@
+.navbar {
+    border-bottom: 2px solid #eee;
+}
+
+.col-centered {
+    margin: auto;
+}
+
+.footer {
+    text-align: right;
+}
