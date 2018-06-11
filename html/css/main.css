@@ -18,6 +18,10 @@ body {
 	margin: auto;
 }
 
+.content img {
+	border: 1px solid #ccc;
+}
+
 .col-centered {
     margin: auto;
 }
@@ -26,7 +30,18 @@ body {
     text-align: right;
 }
 
+.right-panel {
+	position: relative;
+	max-height: 500px;
+	overflow: scroll;
+	padding-right: 50px;
+}
+
 .social-icons {
 	padding: 10px;
-	color: #fff;
+}
+
+.social-icons a[href^="mailto"],
+.social-icons a:visited {
+	color: #333;
 }
