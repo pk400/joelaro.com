@@ -1,6 +1,21 @@
+body {
+	background: #eee;
+}
+
+.content_wrapper {
+	color: #25343F;
+	position: absolute;
+	top: 50%;
+	transform: perspective(1px) translateY(-50%);
+}
+
 .navbar {
-    border-bottom: 2px solid #eee;
-    padding: 0rem;
+	padding: 0;
+}
+
+.content {
+	width: 100%;
+	margin: auto;
 }
 
 .col-centered {
@@ -9,4 +24,9 @@
 
 .footer {
     text-align: right;
+}
+
+.social-icons {
+	padding: 10px;
+	color: #fff;
 }
