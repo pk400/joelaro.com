@@ -3,3 +3,4 @@
 + font selection
 + convert all pixels to scaling units
 + add column scaling on different devices (xs, sm, md, lg)
++ determine colour scheme
