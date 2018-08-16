@@ -6,9 +6,9 @@ class Header extends Component {
 	render() {
 		return (
 			<div className="header">
-				<MediaBox className="header-profile-picture" src="https://github.com/pk400.png" width="150"/>
+				<MediaBox className="header-profile-picture" src="https://github.com/pk400.png" width="100"/>
 				<h1 className="header-name">Joel Aro</h1>
-				<h4 className="header-title">C++, Python, Full-Stack Software Developer</h4>
+				<span className="header-title">C++, Python, Full-Stack Software Developer</span>
 			</div>
 		);
 	}

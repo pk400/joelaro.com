@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import 'content/Content.css'
-import { Parallax, Background } from 'react-materialize';
 
 class Content extends Component {
 	render() {
