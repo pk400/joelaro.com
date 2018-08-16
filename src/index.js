@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/bootstrap.min.css';
-import './css/index.css';
-import './fonts/FiraSans-Regular.ttf'
-import App from './App';
+import App from 'App';
+import 'typeface-fira-sans';
+import 'App.css'
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+	<App />, document.getElementById('root')
+);
