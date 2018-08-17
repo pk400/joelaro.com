@@ -1,0 +1,20 @@
+.content {
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px;
+	border-radius: 2px;
+	padding: 15px;
+	margin-top: 15px;
+	color: rgba(0, 0, 0, 0.87);
+	font-weight: 400;
+	box-sizing: border-box;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.content p:first-child {
+	margin-top: 0;
+}
+
+.content p:last-child {
+	margin-bottom: 0;
+}
