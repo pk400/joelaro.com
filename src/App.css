@@ -1,9 +1,10 @@
 body {
-	background-image: url("space2-bg-full.jpg");
+	background-image: url("space2-bg-full-min.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: "Fira Sans";
 }
+
 .root {
 	position: relative;
 }
